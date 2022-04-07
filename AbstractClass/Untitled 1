@@ -1,0 +1,14 @@
+Insurance => Abstract Class => super class
+premium
+PolicyHolder
+PolicyNumber
+abstract calculatePremium//method
+
+
+=> SubClass
+
+LifeInsurance				HealthInsurance  				VehicleInsurance
+nominee						pre_existing_disease			vehicleModel
+															yearOfMfg
+															
+override calculatePremium	override calculatePremium		override calculatePremium
